@@ -63,5 +63,10 @@ export class PaisesComponent implements OnInit {
     this.page = page;
     this.cargarPaises();
   }
+  
+  setOrder(order: string): void {
+    this.order = order;
+    this.cargarPaises();
+  }
 
 }
